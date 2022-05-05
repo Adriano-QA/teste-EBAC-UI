@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Aluizi-hub/teste-EBAC-UI#readme",
   "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
     "cypress": "^9.6.0"
   }
 }
