@@ -29,9 +29,9 @@ describe('Funcionalidade pagina de produtos', () => {
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Argus All-Weather Tank” foram adicionados no seu carrinho.')
     });
 
-    it.only('Deve adicionar um produto ao carrinho com CUSTOM COMMANDS', () => {
+    it('Deve adicionar um produto ao carrinho com CUSTOM COMMANDS', () => {
 
-        cy.addProdutos('Argus All-Weather Tank', 'M', 'Black', 3)
+        cy.addProdutos('Argus All-Weather Tank', 'M', 'Gray', 3)
 
     });
 });
